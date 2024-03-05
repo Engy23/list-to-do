@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(28, 22, 51);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+h3{
+    margin: 25px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 180%;
+    color: antiquewhite;
+}
+.box {
+    position: relative;
+    box-shadow: 5px 25px 7px rgba(0, 0, 0, 0.25),
+        10px 10px 30px rgba(0, 0, 0, 25),
+        inset 4px 4px 30px rgba(0, 0, 0,5),
+        inset 5px 5px 10px rgba(255, 255, 255, 0.2),
+        inset -5px -1px 70px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    width: 30%;
+    height: 500px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 65%;
+    padding:10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+}
+
+button{
+    cursor:pointer;
+    font-family: "Madimi One", sans-serif;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius:10px ;
+    background-color: violet;
+}
+p{
+    margin: 2% auto;
+    font-family: "Madimi One", sans-serif;
+    padding-top: 10px;
+    width: 60%;
+    height: 8%;
+    border-radius: 18px;
+    background-color: tan;
+}
